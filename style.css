@@ -1,0 +1,794 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    word-wrap: break-word;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #999;
+    text-shadow: #000000;
+    overflow-x: hidden !important;
+    background: #fff;
+    font-family: 'Poppins';
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #ffffff;
+    text-shadow: #000000;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 23px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.25em;
+    margin: 0 0 20px 0;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    padding: 1.2rem 6%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navbar .logo-wrapper {
+    height: 29px;
+    overflow: hidden;
+
+}
+
+.logo-wrapper a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.logo-wrapper a strong {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: -5px;
+
+}
+
+.navbar .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar .navbar-links a {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s; /* Suaviza a transição de cor e transformação */
+    overflow: initial;
+}
+
+.navbar .navbar-links a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px; 
+    background: rgba(255, 255, 255, 0.5); /* Cor da barra */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.navbar .navbar-links a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    background: rgba(255, 255, 255, 0.9); /* Cor da barra ao passar o mouse */
+}
+
+.navbar .navbar-links a:hover {
+    color: rgba(255, 255, 255, 0.644); /* Cor do texto ao passar o mouse */
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+}
+
+
+.header {
+    background-image: url(./images/teste.jpg);
+    min-height: 100vh;
+    background-color: #111;
+    background-position: top right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    min-height: 100vh;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.header .box {
+    max-width: 50%;
+    min-width: 300px;
+}
+
+.header .box h1 {
+    color: #fff;
+}
+
+.whatsapp-button {
+    display: inline-flex; /* Usado para alinhar o ícone no centro */
+    align-items: center; /* Alinha verticalmente o ícone no centro */
+    justify-content: center; /* Alinha horizontalmente o ícone no centro */
+    width: 50px; /* Largura do botão */
+    height: 50px; /* Altura do botão */
+    color: #25D366; /* Cor de fundo do botão */
+    border-radius: 30%; /* Faz o botão ser redondo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: background-color 0.3s, transform 0.3s; /* Transição suave para cor e tamanho */
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: #fff; /* Cor do ícone */
+    font-size: 45px; /* Tamanho do ícone */
+}
+
+.whatsapp-button:hover {
+    background-color: #1da851; /* Cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Leve aumento de tamanho ao passar o mouse */
+}
+
+/* FIM DA PÁGINA INICIAL E CABEÇALHO */
+
+/*SECTION SOBRE*/
+section {
+    background: linear-gradient(to right, rgba(8, 8, 8, 0.973), rgba(12, 12, 12, 0.829));
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section .container {
+    padding: 1rem 6%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+section .container .box {
+    width: 50%;
+    min-width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section .container .box h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+section .container .box p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: rgba(255, 254, 254, 0.726);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.308);
+}
+
+section .container .box ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 2rem 0rem;
+}
+
+section .container .box ul li {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+section .container .box ul li i {
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+section .container .box ul li span {
+    font-size: 15px;
+    font-family: 'Poppins' sans-serif;
+    color: rgb(255, 254, 254);
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 2px 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.123);
+}
+
+section .container .box .signature {
+    width: 80%;
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+section .container .box img {
+    height: fit-content;
+    width: 350px;
+}
+
+section .container .box .linha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+section .container .box .linha .name {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+section .container .about-image {
+    width: 50%;
+    min-width: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.about-image {
+    width: 50%;
+    min-width: 300px;
+    display: flex;
+    justify-content: flex-end; /* Alinha a imagem à direita */
+    align-items: center;
+    position: relative;
+    animation: slide-down 0.5s;
+}
+
+.about .box-s {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    padding: 40px 0px;
+
+}
+
+.about-image .image {
+    position: relative;
+    width: 62%;
+    overflow: hidden;
+}
+
+.about-image .image img {
+    width: 100%;
+    margin-right: 45px;
+    object-fit: cover;
+    animation: float 1.5s infinite;
+}
+
+@keyframes slide-down {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+}
+
+@keyframes float {
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/* SEÇÃO SERVIÇOS */
+.services {
+    padding: 60px 0; 
+    background: linear-gradient(to right, rgb(8, 8, 8), rgba(12, 12, 12, 0.918));
+    color: #fff; 
+    font-family: 'Poppins', sans-serif; 
+    text-align: center; 
+}
+
+
+.services .container {
+    max-width: 1200px; /* Largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner */
+    padding: 0 15px; /* Espaçamento interno lateral */
+}
+
+
+.services h1 {
+    font-size: 36px;
+    font-weight: 700; /* Peso da fonte */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.services p {
+    font-size: 18px;
+    margin-bottom: 40px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens envolvam para a linha seguinte */
+    justify-content: center; /* Alinha os itens ao centro */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+
+.service-item {
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s, background-color 0.3s; 
+}
+
+
+.service-item h4 {
+    font-size: 24px; 
+    font-weight: 700; 
+    margin-bottom: 10px; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+}
+
+
+.service-item p {
+    font-size: 16px;
+    color: #ddd; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+.service-item i {
+    font-size: 24px; 
+    display: block; 
+    margin-top: 10px; 
+    color: #fff;
+}
+
+
+.service-item:hover {
+    transform: scale(1.05); 
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+
+
+
+
+/*AMOSTRA DE FOTOS SEÇÃO TRABALHOS*/
+.works {
+    padding: 70px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(images/novo-fundo.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
+}
+
+
+.works::before {
+    background: linear-gradient(to right, rgba(8, 8, 8, 0.938), rgba(0, 0, 0, 0.932));
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.works ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0rem;
+    gap: 1rem;
+}
+
+.works .container h2 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+.works ul li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 15px;
+    padding: 10px 4px;
+    color: #b2b2b2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid transparent;
+}
+
+
+.works ul li.active,
+.works ul li:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.works .grid-wrapper {
+    width: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+}
+
+.grid-wrapper img {
+    max-width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.grid-wrapper .image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-wrapper .image img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.grid-wrapper .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-wrapper .tall {
+    grid-row: span 2;
+}
+
+.grid-wrapper .wide {
+    grid-column: span 2;
+}
+
+.grid-wrapper .big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+
+/* SEÇÃO CONTATO */
+.contact .box ul li i.bi-telephone-fill {
+    color: #ffffff; /*ícone de telefone */
+}
+
+
+.contact .box ul li i.ri-at-line { 
+    color: #ffffff; /*ícones de e-mail */
+}
+
+
+.contact .box ul li i.ri-building-2-line {
+    color: #ffffff; /*ícones de endereço*/
+}
+
+
+.contact .container .box p {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* ÁREA DE CONTATO FORMS */
+.contact {
+    background: linear-gradient(to right, rgba(8, 8, 8, 0.938), rgba(0, 0, 0, 0.932));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
+    min-height: 100vh;
+    position: relative;
+    color: #fff; 
+    font-family: 'Poppins', sans-serif; /* Alterar fonte para Poppins */
+}
+
+.contact .container .box h2 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contact .container .box i {
+    color: #000000; /* Cor dos ícones */
+    font-size: 25px;
+    background: none;
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    padding: 2rem 0.5rem;
+}
+
+.contact ul li {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.contact .form-title {
+    font-size: 26px;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+}
+
+.contact .box-r {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px 0;
+    padding-left: 50px;
+    z-index: 1;
+}
+
+.contact .box-r::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.contact .form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgba(255, 255, 255, 0.705); /* Fundo branco com opacidade */
+    padding: 2rem 1rem;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.form-box form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-box form .one-line {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.form-box form .box-input {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    background-color: #ffffff; /* Cor de fundo dos inputs */
+    border-radius: 5px;
+}
+
+
+.form-box form .box-input input,
+.form-box form .box-input textarea {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-family: 'Poppins', sans-serif; /* Fonte Poppins para inputs */
+}
+
+.form-box form .btn {
+    padding: 0.75rem 0;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.form-box form .btn:hover {
+    background-color: #09407a; /* Cor de fundo do botão ao passar o mouse */
+}
+/* FIM DA SEÇÃO CONTATO */
+
+
+/*RODAPÉ */
+footer {
+    background: linear-gradient(to right, rgba(8, 8, 8, 0.938), rgba(0, 0, 0, 0.932));
+    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffffc4;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contact p {
+    font-size: 16px;
+    color: #cacaca;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    width: 250px;
+}
+
+.form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #0057b3a6;
+    color: #000000;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.social-links {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+.copyright {
+    font-size: 16px;
+    color: #707070;
+}
