@@ -34,6 +34,24 @@ p {
     margin-bottom: 20px;
 }
 
+.whatsapp-button {
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    color: #25D366;
+    align-items: center;
+    border-radius: 40%;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    position: fixed;
+    top: 65%;
+    left: 5.5%;
+    z-index: 1000;
+}
+
 h4 {
     font-size: 23px;
 }
@@ -788,9 +806,6 @@ footer .container {
         flex-wrap: wrap;
     }
 
-
-
-
     .works ul {
         list-style: none;
         display: flex;
@@ -799,25 +814,6 @@ footer .container {
         gap: 1rem;
         flex-wrap: wrap;
         max-width: 100%;
-    }
-
-
-    .whatsapp-button {
-        display: inline-flex;
-        width: 60px;
-        height: 60px;
-        color: #25D366;
-        align-items: center;
-        border-radius: 30%;
-        justify-content: center;
-        transition: background-color 0.3s, transform 0.3s;
-        text-decoration: none;
-        color: #fff;
-        font-size: 45px;
-        position: fixed;
-        top: 90%;
-        left: 80%;
-        z-index: 1000;
     }
 
 }
