@@ -46,7 +46,6 @@ p {
     text-decoration: none;
     color: #fff;
     font-size: 40px;
-    position: fixed;
     top: 65%;
     left: 5.5%;
     z-index: 1000;
@@ -377,12 +376,12 @@ section .container .about-image {
 
 .services-list {
     display: flex;
-    flex-wrap: wrap; /* Permite que os itens envolvam para a linha seguinte */
-    justify-content: center; /* Alinha os itens ao centro */
-    gap: 20px; /* Espaçamento entre os itens */
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
 }
 
-/* Defina um ícone específico como fundo para cada serviço */
+
 .service-item.sessao-fotografica {
     background-image: url('images/photo-camera.png'); /* URL do ícone */
     background-size: 250px;
@@ -464,6 +463,7 @@ section .container .about-image {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.897);
     text-align: center;
     text-decoration: none;
+    padding-top: 50px;
 }
 
 .gallery ul {
@@ -472,12 +472,15 @@ section .container .about-image {
     align-items: center;
     gap: 1rem;
 }
-.gallery li{
-    font-size: 18px;
-    line-height: 21px;
-    color: #ffffff;
-    cursor: pointer;
+.gallery li {
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    line-height: 18px;
+    padding: 10px 5px; /* Ajusta o espaçamento interno */
+    width: auto; /* Altera para auto para evitar que os itens ocupem 100% da largura */
+    box-sizing: border-box; /* Garante que o padding não quebre o layout */
+    flex: 1 1 calc(33.33% - 20px); /* Faz com que os itens se ajustem em 3 colunas na largura total */
 }
+
 .gallery .active,
     .gallery li:hover{
     color: #ffffffcc;
