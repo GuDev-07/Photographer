@@ -22,7 +22,7 @@
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- FIM DO FONT AWESOME -->
-     
+
     <link rel="stylesheet" href="style.css">
     <title>Photographer Port</title>
 </head>
@@ -61,48 +61,40 @@
                 <a href="https://wa.me/15988036921" class="whatsapp-button">
                     <i class="ri-whatsapp-line whatsapp-icon"></i>
                 </a>
-
             </div>
         </div>
     </div>
     <!--FIM DA PÁGINA INICIAL E CABEÇALHO-->
 
 
+
     <!-- SEÇÃO SOBRE MIM -->
     <section id="about" class="about">
         <div class="container">
-            <div class="box">
-                <h1 class="about-title">Sobre mim...</h1>
-                <p class="about-description">
-                    Olá! Me chamo Gustavo e tenho 19 anos. Descobri minha paixão pela fotografia ao perceber que me
-                    identificava profundamente com essa arte. Adoro capturar momentos das pessoas, com o objetivo de
-                    eternizar
-                    experiências que se tornem inesquecíveis para elas. Embora eu nunca tenha sido muito fotogênico,
-                    sempre tive
-                    um apreço especial por fotografar e registrar a essência das pessoas.
-                </p>
-                <ul class="about-features">
-                    <li><i class="fa fa-check"></i> Eternizando momentos</li>
-                    <li><i class="fa fa-check"></i> Dedicação ao detalhe</li>
-                    <li><i class="fa fa-check"></i> Olhar artístico</li>
-                </ul>
-                <div class="signature">
-                    <img src="./images/signature.png" alt="" srcset="">
-                    <div class="linha">
-                        <div class="name">Gustavo Jesus</div>
-                    </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/eu.jpg" alt="Gustavo" class="profile-img">
                 </div>
-            </div>
-            <div class="about-image">
-                <div class="image">
-                    <div class="box-s">
-                        <img src="images/photo-about.jpg" alt="" srcset="">
-                    </div>
+                <div class="about-text">
+                    <h1 class="about-title">Sobre mim...</h1>
+                    <p class="about-description">
+                        Olá! Sou Gustavo, um fotógrafo de 19 anos. Minha jornada na 
+                        fotografia começou quando percebi como ela tem o poder de capturar momentos únicos e eternizar experiências significativas.
+                        Embora não me considere muito fotogênico, uso a câmera para registrar a essência das pessoas, 
+                        transformando instantes em memórias que vão além do tempo.
+                    </p>
+                    <ul class="about-features">
+                        <li><i class="fa fa-check"></i> Eternizando momentos</li>
+                        <li><i class="fa fa-check"></i> Dedicação aos detalhes</li>
+                        <li><i class="fa fa-check"></i> Capturando sentimentos</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
     <!-- FIM DA SEÇÃO SOBRE MIM -->
+
+
 
 
 
@@ -161,9 +153,9 @@
                 <li data-filter=".product">Comerciais</li>
             </ul>
         </div>
-        
+
         <!-- SEÇÃO DE IMAGENS -->
-        <div class="container"> <!--ESSA-->
+        <div class="container-r"> <!--ESSA-->
             <div class="grid-wrapper">
                 <div class="image tall">
                     <img src="./images/eliana-podologa-2.jpg" alt="ensaio-eliana" />
@@ -184,59 +176,57 @@
     <!--FIM DA SEÇÃO MEU PORTIFOLIO-->
 
 
-
-    <!--SEÇÃO CONTATO-->
-<!-- SEÇÃO CONTATO -->
-<section class="contact" id="contact">
-    <div class="container-contact">
-        <div class="box-C">
-            <h2>Me contate!</h2>
-            <ul>
-                <li>
-                    <i class="bi bi-telephone-fill"></i>
-                    <p>(15) 98803-6921</p>
-                </li>
-                <li>
-                    <i class="ri-at-line"></i>
-                    <p>gustavinhojesussant@gmail.com</p>
-                </li>
-                <li>
-                    <i class="ri-building-2-line"></i>
-                    <p>Sorocaba-SP</p>
-                </li>
-            </ul>
-        </div>
-        <!-- FORMS -->
-        <div class="form">
-            <div class="box-r">
-                <div class="form-box">
-                    <form action="contact" method="">
-                        <div class="one-line">
-                            <div class="box-input">
-                                <i class="fa fa-user form-icon"></i>
-                                <input type="text" name="" id="text" placeholder="Insira seu nome">
+    <!-- SEÇÃO CONTATO -->
+    <section class="contact" id="contact">
+        <div class="container-contact">
+            <div class="box-C">
+                <h2>Me contate!</h2>
+                <ul>
+                    <li>
+                        <i class="bi bi-telephone-fill"></i>
+                        <p>(15) 98803-6921</p>
+                    </li>
+                    <li>
+                        <i class="ri-at-line"></i>
+                        <p>gustavinhojesussant@gmail.com</p>
+                    </li>
+                    <li>
+                        <i class="ri-building-2-line"></i>
+                        <p>Sorocaba-SP</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- FORMS -->
+            <div class="form">
+                <div class="box-r">
+                    <div class="form-box">
+                        <form action="contact" method="">
+                            <div class="one-line">
+                                <div class="box-input">
+                                    <i class="fa fa-user form-icon"></i>
+                                    <input type="text" name="" id="text" placeholder="Insira seu nome">
+                                </div>
+                                <div class="box-input">
+                                    <i class="bi bi-telephone-fill"></i>
+                                    <input type="text" name="" id="text" placeholder="Seu telefone">
+                                </div>
                             </div>
                             <div class="box-input">
-                                <i class="bi bi-telephone-fill"></i>
-                                <input type="text" name="" id="text" placeholder="Seu telefone">
+                                <i class="fa fa-at form-icon"></i>
+                                <input type="email" name="" id="text" placeholder="Seu melhor e-mail">
                             </div>
-                        </div>
-                        <div class="box-input">
-                            <i class="fa fa-at form-icon"></i>
-                            <input type="email" name="" id="text" placeholder="Seu melhor e-mail">
-                        </div>
-                        <div class="box-input">
-                            <textarea name="" id="" cols="30" rows="10" placeholder="O que deseja?"></textarea>
-                        </div>
-                        <button class="btn">Enviar mensagem</button>
-                    </form>
-                    <!-- FIM DO FORMS -->
+                            <div class="box-input">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="O que deseja?"></textarea>
+                            </div>
+                            <button class="btn">Enviar mensagem</button>
+                        </form>
+                        <!-- FIM DO FORMS -->
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- FIM DA SEÇÃO CONTATO -->
+    </section>
+    <!-- FIM DA SEÇÃO CONTATO -->
 
 
 
