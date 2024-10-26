@@ -374,6 +374,7 @@ h4 {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+
 }
 
 .services .container-serv {
@@ -397,7 +398,6 @@ h4 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     flex-wrap: wrap;
     text-align: center;
-
 }
 
 .services-list {
@@ -418,47 +418,91 @@ h4 {
 
 .service-item h4 {
     font-size: 24px;
-    font-weight: 700;
     margin-bottom: 15px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    padding: 15px;
 }
 
 .service-item p {
-    font-size: 16px;
-    color: #ddd;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
     cursor: pointer;
+    padding: 10px 10px 10px;
+    flex-wrap: wrap;
 }
 
 .service-item:hover {
     transform: scale(1.05);
-    background-color: rgba(99, 93, 93, 0.082);
+    background-color: rgba(0, 0, 0, 0.76);
 }
 
 .service-item.sessao-fotografica {
-    background-image: url('images/photo-camera.png'); /* Substitua pela URL correta da imagem */
-    background-size: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/rafinha-e-eduarda.jpg);
+    background-size: 260px;
+    width:  250px;
+    height: 290px;
+    background-position: 50%;
+    cursor: pointer;
+}
+
+.service-item.sessao-fotografica:hover {
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/rafinha-e-eduarda.jpg);
 }
 
 .service-item.aniversarios {
-    background-image: url('images/photo-camera.png'); /* Substitua pela URL correta da imagem */
-    background-size: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/aniversario.jpg);
+    background-size: 260px;
+    width:  250px;
+    height: 290px;
+    background-position: 50%;
+    cursor: pointer;
+}
+
+.service-item.aniversarios:hover {
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/aniversario.jpg);
 }
 
 .service-item.fotografias-comerciais {
-    background-image: url('images/photo-camera.png'); /* Substitua pela URL correta da imagem */
-    background-size: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/doce.jpeg);
+    background-size: 260px;
+    width:  250px;
+    height: 290px;
+    background-position: 50%;
+    cursor: pointer;
 }
 
-.service-item.batizados {
-    background-image: url('images/photo-camera.png'); /* Substitua pela URL correta da imagem */
-    background-size: 200px;
+.service-item.fotografias-comerciais:hover {
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/doce.jpeg);
+}
+
+.service-item.corporativo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/corporativo.jpg);
+    background-size: 260px;
+    width:  250px;
+    height: 290px;
+    background-position: 50%;
+    cursor: pointer;
+}
+
+.service-item.corporativo:hover {
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/corporativo.jpg);
 }
 
 .service-item.casamentos {
-    background-image: url('images/photo-camera.png'); /* Substitua pela URL correta da imagem */
-    background-size: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/casamento.jpg);
+    background-size: 260px;
+    width:  250px;
+    height: 290px;
+    background-position: 50%;
+    cursor: pointer;
 }
+
+.service-item.casamentos:hover {
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/casamento.jpg);
+}
+
+
 /*FIM DA SEÇÃO SERVICES*/
 
 /*SEÇÃO PORTFOLIO*/
