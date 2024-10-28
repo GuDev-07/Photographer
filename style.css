@@ -630,12 +630,6 @@ h4 {
     justify-content: space-between;
 }
 
-.contact .box-C p {
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
 
 .contact .box-r {
     display: flex;
@@ -685,6 +679,16 @@ h4 {
 @media (max-width: 720px) { 
     .contact ul {
         flex-direction: column; 
+    }
+
+    .contact .box-C p {
+        font-size: 10px;
+    }
+    
+    
+    .contact h2 {
+        padding-right: 0;
+        padding-top: 0;
     }
 }
 
