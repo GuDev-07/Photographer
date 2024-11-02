@@ -826,3 +826,68 @@ footer .container {
     font-size: 18px;
 }
 /*FIM DA ESTILIZAÇÃO DA PÁGINA*/
+
+/*PAGINA DE OBRIGADO*/
+.pagina_agradecimento{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.952), rgba(0, 0, 0, 0.932));
+}
+.container_agradecimento {
+    text-align: center;
+    background-color: #4a91e25d;
+    color: #ffffff;
+    padding: 50px;
+    border-radius: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 40px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.589);
+}
+
+.posicao-botao{
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    padding-top: 250px; /* Ajuste conforme necessário */
+}
+
+.botao-oficial {
+    background-color: #4a91e25d;
+    color: white;
+    border: none; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+.botao-oficial:hover {
+    background-color: #c9dcf0; /* Cor de fundo ao passar o mouse */
+    color: black;
+}
+
+@media (max-width: 720px) {
+    .pagina_agradecimento {
+        flex-direction: column;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .botao-oficial {
+        font-size: 15px;
+    }
+    .container_agradecimento {
+        padding: 20px;
+        border-radius: 20px;
+    }
+}
+/*FIM DA ESTILIZAÇÃO DA PAGINA DE OBRIGADO*/
