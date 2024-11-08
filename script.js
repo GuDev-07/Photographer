@@ -13,28 +13,43 @@ navLinks.forEach(link =>{
     });
 });
 
-//Redirecionamento do E-mail
+// Redirecionamento do E-mail
 function sendEmail() {
-  console.log("sendEmail function called");
+    var from_name = document.getElementById("name").value.trim();
+    var email_id = document.getElementById("email").value.trim();
+    var number = document.getElementById("phone").value.trim();
+    var message = document.getElementById("message").value.trim();
 
-  var name = document.getElementById("name").value;
-  var phone = document.getElementById("phone").value; 
-  var email = document.getElementById("email").value;
-  var message = document.getElementById("message").value;
+// Validando se o email esta descrito da forma correta
+    var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
 
-  console.log("Captured Data:", { name, phone, email, message });
 
-  emailjs.send("service_wdt3hil", "template_tvu0xjy", {
-      name: name,
-      phone: phone,
-      email: email,
-      message: message,
-  })
-  .then(function(response) {
-      console.log("Email enviado com sucesso", response.status, response.text);
-      window.location.href = 'obrigado.html';
-  }, function(error) {
-      console.error("Erro ao enviar e-mail:", error);
-      alert("Falha ao enviar a mensagem: " + JSON.stringify(error));
-  });
+// Verificação de preenchimento dos campos
+    if (!from_name || !email_id || !number || !message) {
+        alert("Por favor, preencha todos os campos antes de enviar a mensagem.");
+        return; // Interrompe o envio imediatamente se algum campo estiver vazio
+    }
+
+// Verificação se o email é válido
+    if (!emailPattern.test(email_id)){
+        alert("Email incorreto! Esse não é um formato de e-mail válido. Por favor, tente novamente.");
+        return; // Interrompe o envio se o e-mail for inválido
+    }
+// Parametros do Email
+    var params = {
+        from_name: from_name,
+        email_id: email_id,
+        number: number,
+        message: message
+    };
+
+    emailjs.send("service_wdt3hil", "template_tvu0xjy", params)
+    .then(function (res) {
+        window.location.href = "obrigado.html"; //Redireciona para a pagina de agradecimento pelo contato
+    })
+    .catch(function (err) {
+        alert("Erro ao enviar mensagem: " + err);
+    });
 }
+
+
