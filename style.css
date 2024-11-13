@@ -560,39 +560,76 @@ h4 {
     color: #4A90E2; /* Cor do título */
 }
 
-.grid-wrapper {
-    max-width: 100%;
-    display: grid;
-    grid-gap: 1.2rem;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-auto-rows: 200px;
-    grid-auto-flow: dense;
+/* Estilos Gerais */
+.gallery {
+    background-color: #121212; /* Fundo escuro */
+    padding: 20px;
+    text-align: center;
 }
 
-.grid-wrapper .image {
+.title {
+    color: #4A90E2; /* Cor do título */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Contêiner do Carrossel */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden; /* Esconde o conteúdo extra ao lado */
     display: flex;
     justify-content: center;
+}
+
+.carousel {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    width: 80%; /* Ajuste para controlar a largura */
 }
 
-.grid-wrapper .image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
+.carousel-slide {
+    display: flex;
+    gap: 20px; /* Espaço entre as imagens */
+    transition: transform 0.5s ease; /* Transição suave para o movimento */
+    cursor: pointer;
 }
 
-.grid-wrapper .wide {
-    grid-column: span 2;
+.carousel-slide img {
+    height: 500px; /* Tamanho das imagens */
+    border-radius: 8px;
+    transition: transform 0.3s ease;
 }
 
-.grid-wrapper .tall {
-    grid-row: span 2;
+.carousel-slide img:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
 }
 
-.grid-wrapper .big {
-    grid-column: span 2;
-    grid-row: span 2;
+/* Botões do Carrossel */
+.carousel-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px; /* Posiciona o botão anterior à esquerda */
+}
+
+.next {
+    right: 10px; /* Posiciona o botão próximo à direita */
+}
+
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo ao passar o mouse */
 }
 /*FIM DA SEÇÃO PORTFOLIO*/
 

@@ -52,4 +52,21 @@ function sendEmail() {
     });
 }
 
+let currentIndex = 0;
 
+function moveSlide(direction) {
+    const slide = document.querySelector('.carousel-slide');
+    const slideWidth = slide.querySelector('img').clientWidth + 10; // Largura da imagem mais o espaço entre as imagens
+    
+    currentIndex += direction;
+
+    // Limita o índice para não passar do total de imagens
+    const maxIndex = slide.children.length - 1;
+    if (currentIndex < 0) {
+        currentIndex = 0;
+    } else if (currentIndex > maxIndex) {
+        currentIndex = maxIndex;
+    }
+
+    slide.style.transform = `translateX(${-slideWidth * currentIndex}px)`;
+}
