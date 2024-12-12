@@ -438,7 +438,7 @@ h4 {
 }
 
 .service-item.sessao-fotografica {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/rafinha-e-eduarda.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/ensaio.jpg);
     background-size: 260px;
     width:  250px;
     height: 290px;
@@ -447,11 +447,11 @@ h4 {
 }
 
 .service-item.sessao-fotografica:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/rafinha-e-eduarda.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/ensaio.jpg);
 }
 
 .service-item.aniversarios {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/aniversario.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/aniversary.jpg);
     background-size: 260px;
     width:  250px;
     height: 290px;
@@ -460,11 +460,11 @@ h4 {
 }
 
 .service-item.aniversarios:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/aniversario.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/aniversary.jpg);
 }
 
 .service-item.fotografias-comerciais {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/doce.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/C-A-PA.jpg);
     background-size: 260px;
     width:  250px;
     height: 290px;
@@ -473,11 +473,11 @@ h4 {
 }
 
 .service-item.fotografias-comerciais:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/doce.jpeg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/C-A-PA.jpg);
 }
 
 .service-item.corporativo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/corporativo.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/corporate-1.jpg);
     background-size: 260px;
     width:  250px;
     height: 290px;
@@ -486,152 +486,186 @@ h4 {
 }
 
 .service-item.corporativo:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/corporativo.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/corporate-1.jpg);
 }
 
 .service-item.casamentos {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/casamento.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/casament.jpg);
     background-size: 260px;
     width:  250px;
-    height: 350px;
+    height: 290px;
     background-position: 50%;
     cursor: pointer;
 }
 
 .service-item.casamentos:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/casamento.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/casament.jpg);
 }
 
+.service-item.eucaristia {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/eucaristia.jpg);
+    background-size: 260px;
+    width:  250px;
+    height: 290px;
+    background-position: 50%;
+    cursor: pointer;
+}
 
+.service-item.eucaristia:hover {
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/eucaristia.jpg);
+}
+
+.service-item.crisma {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/crisma.jpg);
+    background-size: 260px;
+    width:  240px;
+    height: 290px;
+    background-position: 50%;
+    cursor: pointer;
+}
+
+.service-item.crisma:hover {
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/crisma.jpg);
+}
+
+.service-item.batizado {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/C-A-PA.jpg);
+    background-size: 260px;
+    width:  240px;
+    height: 290px;
+    background-position: 50%;
+    cursor: pointer;
+}
+
+.service-item.batizado:hover {
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/C-A-PA.jpg);
+}
 /*FIM DA SEÇÃO SERVICES*/
 
-/*SEÇÃO PORTFOLIO*/
+
+/* SEÇÃO PORTFÓLIO */
 .gallery {
     background: linear-gradient(to right, rgb(8, 8, 8), rgba(12, 12, 12, 0.918));
-    padding: 40px 20px; /* Espaçamento interno */
+    padding: 100px 20px;
+    text-align: center;
 }
 
-.container-r{
-    padding: 1rem 6%;
-    justify-content: center;
-    z-index: 1;
-    max-width: 1550px; /* Limite de largura */
+.heading h2 {
+    font-size: 40px;
+    color: #4A90E2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.897);
+    margin-bottom: 20px;
 }
 
 .container-port ul {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 1rem;
-    padding: 20px 0;
     flex-wrap: wrap;
     list-style: none;
+    padding: 20px 0;
 }
 
 .container-port li {
     font-size: 16px;
-    line-height: 18px;
     padding: 10px 5px;
-    box-sizing: border-box;
     cursor: pointer;
-    color: white;
+    color: #ffffff;
     transition: color 0.3s, border-bottom 0.3s, background-color 0.3s;
 }
 
-.container-port .active,
-.container-port li:hover {
-    color: #ffffff;
-    border-bottom: 1px solid #ffffffb2;
+.container-port .active{
+    color: #4A90E2;
+    border-bottom: 1px solid #4A90E2;
 }
 
-.container-port li:hover {
-    color: #ffffff; /* Altere para a cor desejada */
-    background-color: #f0f0f034; /* Altere para a cor desejada */
-    color: #4A90E2; /* Cor do título */
-}
-
-.heading h2 {
-    font-size: 40px;
-    color: #ffffff;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.897);
-    text-align: center;
-    padding-top: 90px;
-    color: #4A90E2; /* Cor do título */
-}
-
-/* Estilos Gerais */
-.gallery {
-    background-color: #121212; /* Fundo escuro */
-    padding: 20px;
-    text-align: center;
-}
-
-.title {
-    color: #4A90E2; /* Cor do título */
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-/* Contêiner do Carrossel */
-.carousel-container {
+/* ESTILIZAÇÃO DO CARROSSEL */
+#carouselExampleControls {
     position: relative;
-    width: 100%;
-    overflow: hidden; /* Esconde o conteúdo extra ao lado */
-    display: flex;
-    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
-.carousel {
+.carousel-inner {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%; /* Ajuste para controlar a largura */
+    transition: transform 0.5s ease;
+    gap: 20px; 
+    padding: 10px; 
 }
 
-.carousel-slide {
-    display: flex;
-    gap: 20px; /* Espaço entre as imagens */
-    transition: transform 0.5s ease; /* Transição suave para o movimento */
-    cursor: pointer;
+.carousel-item {
+    flex: 0 0 100%; /* Cada item ocupa 100% do espaço */
 }
 
-.carousel-slide img {
-    height: 500px; /* Tamanho das imagens */
-    border-radius: 8px;
+.carousel-item img {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
     transition: transform 0.3s ease;
 }
 
-.carousel-slide img:hover {
-    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
-}
-
-/* Botões do Carrossel */
-.carousel-button {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    border: none;
-    font-size: 24px;
-    padding: 10px;
+.carousel-control-prev,
+.carousel-control-next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
     z-index: 10;
 }
 
-.prev {
-    left: 10px; /* Posiciona o botão anterior à esquerda */
+.carousel-control-prev {
+    left: 10px;
 }
 
-.next {
-    right: 10px; /* Posiciona o botão próximo à direita */
+.carousel-control-next {
+    right: 10px;
 }
 
-.carousel-button:hover {
-    background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo ao passar o mouse */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    font-size: 24px;
+    color: white;
 }
-/*FIM DA SEÇÃO PORTFOLIO*/
+
+.carousel-control-prev::before,
+.carousel-control-next::before {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .heading h2 {
+        font-size: 28px;
+    }
+
+    .carousel-item img {
+        height: 300px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 40px;
+        height: 40px;
+    }
+}
+
 
 
 /*SEÇÃO CONTATO ENTRE EM CONTATO*/
