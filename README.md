@@ -11,5 +11,7 @@ HTML: Estrutura e conteúdo da página
 
 CSS: Estilização e design visual
 
+JavaScript: Navegação e aprimoramento
+
 # 🚀 Navegação
 Sinta-se à vontade para explorar o site e conhecer mais sobre o trabalho do fotógrafo. Se você estiver interessado em agendar uma sessão ou tiver alguma pergunta, não hesite em entrar em contato!
