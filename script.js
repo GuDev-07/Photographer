@@ -56,55 +56,46 @@ function sendEmail() {
 }
 //FIM DO SCRIPT PARA MENSAGEM NO MEU E-MAIL
 
-let currentIndex = 1;
-let slideWidth = 0;
 
-function setupInfiniteCarousel() {
-    const slide = document.querySelector('.carousel-inner');
-    const images = Array.from(slide.querySelectorAll('.carousel-item'));
+document.addEventListener("DOMContentLoaded", function () {
+    const filterButtons = document.querySelectorAll(".portfolio-filters button");
+    const portfolioItems = document.querySelectorAll(".portfolio-item");
 
-    if (!images.length) return;
+    const setPortfolioVisibility = (filter) => {
+        portfolioItems.forEach(item => {
+            item.classList.remove("hide-initially", "hide-last-column");
 
-    slideWidth = slide.offsetWidth;
+            const matchesFilter = filter === "all" || item.classList.contains(filter);
+            item.style.display = matchesFilter ? "block" : "none";
+        });
+    };
 
-    // Clona os slides
-    const firstClone = images[0].cloneNode(true);
-    const lastClone = images[images.length - 1].cloneNode(true);
+    filterButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            document.querySelector(".portfolio-filters button.active").classList.remove("active");
+            button.classList.add("active");
 
-    slide.appendChild(firstClone);
-    slide.insertBefore(lastClone, images[0]);
-
-    slide.style.transform = `translateX(${-slideWidth * currentIndex}px)`;
-}
-
-function moveSlide(direction) {
-    const slide = document.querySelector('.carousel-inner');
-    const images = slide.querySelectorAll('.carousel-item');
-    currentIndex += direction;
-
-    slide.style.transition = 'transform 0.5s ease-in-out';
-    slide.style.transform = `translateX(${-slideWidth * currentIndex}px)`;
-
-    slide.addEventListener('transitionend', () => {
-        if (currentIndex === 0) {
-            slide.style.transition = 'none';
-            currentIndex = images.length - 2;
-            slide.style.transform = `translateX(${-slideWidth * currentIndex}px)`;
-        }
-        if (currentIndex === images.length - 1) {
-            slide.style.transition = 'none';
-            currentIndex = 1;
-            slide.style.transform = `translateX(${-slideWidth * currentIndex}px)`;
-        }
+            const filter = button.getAttribute("data-filter");
+            setPortfolioVisibility(filter);
+        });
     });
-}
 
-document.querySelector('.carousel-control-prev').addEventListener('click', () => moveSlide(-1));
-document.querySelector('.carousel-control-next').addEventListener('click', () => moveSlide(1));
-
-window.addEventListener('resize', () => {
-    slideWidth = document.querySelector('.carousel-inner').offsetWidth;
-    document.querySelector('.carousel-inner').style.transform = `translateX(${-slideWidth * currentIndex}px)`;
+    setPortfolioVisibility("all");
 });
 
-document.addEventListener('DOMContentLoaded', setupInfiniteCarousel);
+
+// Função para abrir o Lightbox (modal) com a imagem clicada
+document.querySelectorAll('.portfolio-item img').forEach(item => {
+    item.addEventListener('click', (event) => {
+        const imgSrc = event.target.src;  // Obtém o src da imagem clicada
+        const lightboxImg = document.getElementById('lightbox-img');
+        lightboxImg.src = imgSrc;  // Define a imagem do Lightbox
+        document.getElementById('lightbox').style.display = 'flex';  // Exibe o Lightbox
+    });
+});
+
+// Função para fechar o Lightbox
+function closeLightbox() {
+    document.getElementById('lightbox').style.display = 'none';  // Esconde o Lightbox
+}
+

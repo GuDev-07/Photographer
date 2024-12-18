@@ -231,7 +231,7 @@ h4 {
 }
 
 .header .box h1 {
-    color: #fff;
+    color: #ffffff;
 }
 
 .whatsapp-button:hover {
@@ -438,7 +438,7 @@ h4 {
 }
 
 .service-item.sessao-fotografica {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/ensaio.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/ensaiorafaduda4.JPG);
     background-size: 260px;
     width:  250px;
     height: 290px;
@@ -447,7 +447,7 @@ h4 {
 }
 
 .service-item.sessao-fotografica:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/ensaio.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/ensaiorafaduda4.JPG);
 }
 
 .service-item.aniversarios {
@@ -464,7 +464,7 @@ h4 {
 }
 
 .service-item.fotografias-comerciais {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/C-A-PA.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/comercial.jpg);
     background-size: 260px;
     width:  250px;
     height: 290px;
@@ -473,11 +473,11 @@ h4 {
 }
 
 .service-item.fotografias-comerciais:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/C-A-PA.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/comercial.jpg);
 }
 
 .service-item.corporativo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/corporate-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/corporate-moniq.jpg);
     background-size: 260px;
     width:  250px;
     height: 290px;
@@ -486,7 +486,7 @@ h4 {
 }
 
 .service-item.corporativo:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/corporate-1.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/corporate-moniq.jpg);
 }
 
 .service-item.casamentos {
@@ -503,7 +503,7 @@ h4 {
 }
 
 .service-item.eucaristia {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/eucaristia.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/eucaristia-gab.jpg);
     background-size: 260px;
     width:  250px;
     height: 290px;
@@ -512,11 +512,11 @@ h4 {
 }
 
 .service-item.eucaristia:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/eucaristia.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/eucaristia-gab.jpg);
 }
 
 .service-item.crisma {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/crisma.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/crisma-LET.jpg);
     background-size: 260px;
     width:  240px;
     height: 290px;
@@ -525,11 +525,11 @@ h4 {
 }
 
 .service-item.crisma:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/crisma.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/crisma-LET.jpg);
 }
 
 .service-item.batizado {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/C-A-PA.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/batism.webp);
     background-size: 260px;
     width:  240px;
     height: 290px;
@@ -538,135 +538,139 @@ h4 {
 }
 
 .service-item.batizado:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/C-A-PA.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/batism.webp);
+}
+
+.service-item.cha-reve {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/cha.jpg);
+    background-size: 260px;
+    width:  240px;
+    height: 290px;
+    background-position: 50%;
+    cursor: pointer;
+}
+
+.service-item.cha-reve:hover {
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/cha.jpg);
 }
 /*FIM DA SEÇÃO SERVICES*/
 
 
 /* SEÇÃO PORTFÓLIO */
-.gallery {
-    background: linear-gradient(to right, rgb(8, 8, 8), rgba(12, 12, 12, 0.918));
-    padding: 100px 20px;
+.portfolio {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(12, 12, 12, 0.918));
+    padding: 60px 20px;
+    color: #fff;
     text-align: center;
 }
 
 .heading h2 {
     font-size: 40px;
-    color: #4A90E2;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.897);
     margin-bottom: 20px;
-}
-
-.container-port ul {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 20px 0;
-}
-
-.container-port li {
-    font-size: 16px;
-    padding: 10px 5px;
-    cursor: pointer;
-    color: #ffffff;
-    transition: color 0.3s, border-bottom 0.3s, background-color 0.3s;
-}
-
-.container-port .active{
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
     color: #4A90E2;
-    border-bottom: 1px solid #4A90E2;
 }
 
-/* ESTILIZAÇÃO DO CARROSSEL */
-#carouselExampleControls {
-    position: relative;
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.carousel-inner {
+/* FILTROS */
+.portfolio-filters {
     display: flex;
-    transition: transform 0.5s ease;
-    gap: 20px; 
-    padding: 10px; 
-}
-
-.carousel-item {
-    flex: 0 0 100%; /* Cada item ocupa 100% do espaço */
-}
-
-.carousel-item img {
-    width: 50%;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    color: #ffffff;
-    text-decoration: none;
-    z-index: 10;
+    gap: 25px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
 }
 
-.carousel-control-prev {
-    left: 10px;
+.portfolio-filters button {
+    background-color: transparent;
+    border: 1px solid #4A90E2;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
-.carousel-control-next {
-    right: 10px;
+.portfolio-filters button.active,
+.portfolio-filters button:hover {
+    background-color: #4A90E2;
+    color: #000;
+    transform: scale(1.1);
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    font-size: 24px;
-    color: white;
+/* GALERIA */
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
 }
 
-.carousel-control-prev::before,
-.carousel-control-next::before {
-    font-family: Arial, sans-serif;
-    color: white;
+.portfolio-item {
+    display: block;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+.portfolio-item img {
+    width: 80%;
+    height: 80%; /* Garante que ocupe o espaço corretamente */
+    object-fit: cover; /* Mantém as proporções da imagem sem distorcer */
+    transition: transform 0.4s ease-in-out;
+    cursor: pointer;
 }
 
-/* Responsividade */
+/* Estilos para o Lightbox */
+.lightbox {
+    display: none; /* Inicialmente escondido */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+}
+
+.lightbox .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+/* Efeito de zoom ao passar o mouse na imagem */
+.lightbox img:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* RESPONSIVIDADE */
 @media (max-width: 768px) {
+    .portfolio-filters {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
     .heading h2 {
         font-size: 28px;
     }
-
-    .carousel-item img {
-        height: 300px;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-        width: 40px;
-        height: 40px;
-    }
 }
-
-
 
 /*SEÇÃO CONTATO ENTRE EM CONTATO*/
 .contact {
