@@ -232,6 +232,14 @@ h4 {
 
 .header .box h1 {
     color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.header .box p {
+    color: rgb(230, 230, 230);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    line-height: 1.8;
 }
 
 .whatsapp-button:hover {
@@ -290,7 +298,6 @@ h4 {
 }
 
 .about-text {
-    flex: 1; /* Texto ocupa mais espaço */
     padding-left: 25px;
     padding-top: 30px;
     justify-content: space-between;
@@ -299,21 +306,24 @@ h4 {
 }
 
 .about-title {
-    font-size: 3em; /* Tamanho do título */
+    font-size: 45px; /* Tamanho do título */
     color: #4A90E2; /* Cor do título */
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
     padding-top: 30px;
+    text-align: center; /* Centraliza o texto em telas menores */
 }
 
-.about-description{
+.about-description {
     font-family: 'Poppins', sans-serif;
-    font-size: 19px;
+    font-size: 17px;
     color: rgb(255, 255, 255);
-    margin-bottom: 20px;
-    align-items: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    max-width: 700px; /* Limite de largura para evitar que o texto se espalhe demais */
+    line-height: 1.8; /* Aumenta o espaçamento entre as linhas para facilitar a leitura */
+    text-align: center; /* Centraliza o texto em telas menores */
+    padding: 0 5px; /* Adiciona padding para evitar que o texto encoste nas bordas da tela */
 }
 
 .about-features {
@@ -323,6 +333,7 @@ h4 {
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+    font-size: 13px;
 }
 
 .about-features li {
@@ -363,6 +374,13 @@ h4 {
         padding-top: 30px;
         text-align: center;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .about-description {
+        font-size: 16px; /* Tamanho da fonte ajustado para telas menores */
+        text-align: center; /* Garante que o texto fique centralizado em dispositivos móveis */
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 /*FIM DA SEÇÃO SOBRE-MIM*/
@@ -558,7 +576,7 @@ h4 {
 
 /* SEÇÃO PORTFÓLIO */
 .portfolio {
-    background: linear-gradient(to right, rgb(0, 0, 0), rgba(12, 12, 12, 0.918));
+    background: linear-gradient(to right, rgb(8, 8, 8), rgba(12, 12, 12, 0.918));
     padding: 60px 20px;
     color: #fff;
     text-align: center;
@@ -711,9 +729,10 @@ h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 120%;
     z-index: 1;
     padding-top: 80px;
+    padding-right: 30px;
 }
 
 .contact .form-box {
@@ -723,6 +742,7 @@ h4 {
     background-color: rgba(255, 255, 255, 0.705);
     padding: 2rem 1rem;
     width: 100%;
+    margin-bottom: 10%;
     border-radius: 10px;
 }
 
@@ -730,13 +750,7 @@ h4 {
 .contact .box-C i.ri-at-line,
 .contact .box-C i.ri-building-2-line {
     color: #ffffff;
-    font-size: 25px;
-}
-
-.contact .container-contact .box i {
-    color: #d60707;
-    font-size: 25px;
-    background: none;
+    font-size: 30px;
 }
 
 .contact ul {
@@ -749,6 +763,9 @@ h4 {
 .contact ul li {
     display: flex;
     gap: 0.5rem;
+    max-width: 200px; /* Limite de largura para evitar que o texto se espalhe demais */
+    line-height: 1; /* Aumenta o espaçamento entre as linhas para facilitar a leitura */
+    
 }
 
 @media (max-width: 720px) { 
@@ -757,9 +774,12 @@ h4 {
     }
 
     .contact .box-C p {
-        font-size: 15px;
+        font-size: 20px;
+        max-width: 240px; /* Limite de largura para evitar que o texto se espalhe demais */
+        line-height: 1.4; /* Aumenta o espaçamento entre as linhas para facilitar a leitura */
+        margin-bottom: 25px;
+
     }
-    
     
     .contact h2 {
         padding-right: 0;
