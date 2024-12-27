@@ -470,7 +470,7 @@ h4 {
 }
 
 .service-item.sessao-fotografica {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/ensaiorafaduda4.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/ensaioRAFADUDASERVICES.JPG);
     background-size: 260px;
     width:  250px;
     height: 290px;
@@ -479,7 +479,7 @@ h4 {
 }
 
 .service-item.sessao-fotografica:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/ensaiorafaduda4.JPG);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/ensaioRAFADUDASERVICES.JPG);
 }
 
 .service-item.aniversarios {
