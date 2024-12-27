@@ -1,18 +1,27 @@
 //MENU HAMBURGUER PARA CELULAR
 const menuToggle = document.getElementById('menuToggle');
 const navbarLinks = document.querySelector('.navbar-links');
-const navLinks = document.querySelectorAll('.navbar-links a')
+const navLinks = document.querySelectorAll('.navbar-links a');
+const closeMenu = document.querySelector('.close-menu a'); // Seleciona o "X" para fechar
 
+// Alternar menu (abrir/fechar)
 menuToggle.addEventListener('click', () => {
   navbarLinks.classList.toggle('active');
 });
 
-navLinks.forEach(link =>{
+// Fechar o menu ao clicar no "X"
+closeMenu.addEventListener('click', () => {
+  navbarLinks.classList.remove('active'); // Fecha o menu
+});
+
+// Fechar o menu ao clicar em qualquer link dentro do menu
+navLinks.forEach(link => {
     link.addEventListener('click', () => {
-        navbarLinks.classList.remove('active'); //Fecha o menu
+        navbarLinks.classList.remove('active'); // Fecha o menu
     });
 });
 //FIM DO MENU HAMBURGUER PARA CELULAR
+
 
 
 
