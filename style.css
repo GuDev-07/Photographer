@@ -654,6 +654,14 @@ h4 {
     cursor: pointer;
 }
 
+.img-ensaio-ajustada {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px; /* Opcional, para um toque mais suave */
+}
+
+
 /* Estilos para o Lightbox */
 .lightbox {
     display: none; /* Inicialmente escondido */
