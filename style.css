@@ -27,7 +27,7 @@ body {
 
 p {
     font-family: 'Poppins', sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 1.75em;
     color: #ffffff;
@@ -37,7 +37,7 @@ p {
 
 .whatsapp-button {
     display: inline-flex;
-    width: 60px;
+    width: 50px;
     height: 60px;
     color: #25D366;
     align-items: center;
