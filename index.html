@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <!-- FIM DA GOOGLE FONTS -->
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- FIM DO BOOTSTRAP ICONS -->
+
+    <!-- ICONS REMIX -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/2.5.0/remixicon.css">
+    <!-- FIM DO ICONS REMIX -->
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- FIM DO FONT AWESOME -->
+
+    <!-- MENSAGEM DO E-MAIL -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("sKteHFI-dN_KwL2Tx");
+        })();
+    </script>
+    <!-- FIM DA MENSAGEM PRO E-MAIL -->
+
+    <link rel="stylesheet" href="style.css">
+    <title>Photographer Port</title>
+</head>
+
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"> <strong>GJ</strong> Gustavo Jesus </a>
+            </div>
+            <div class="menu-toggle" id="menuToggle" aria-label="Alternar menu">
+                <span class="menu-icon">☰</span>
+            </div>
+
+            <ul class="navbar-links">
+                <li><a class="nav-link active" href="#">Home</a></li>
+                <li><a class="nav-link" href="#about">Sobre</a></li>
+                <li><a class="nav-link" href="#services">Serviços</a></li>
+                <li><a class="nav-link" href="#works">Portfólio</a></li>
+                <li><a class="nav-link" href="#contact">Contato</a></li>
+                <li class="close-menu"><a href="#" style="font-size: 2rem;">X</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header">
+        <div class="container">
+            <div class="box">
+                <h4 class="">Olá pessoal!</h4>
+                <h1 class="">Prazer, Gustavo</h1>
+                <p class="">
+                    Sou profissional de fotografia que reside em Sorocaba-SP, busco sempre mostrar meu trabalho da
+                    melhor forma,
+                    afinal, nunca é só uma foto!
+                </p>
+                <a href="https://wa.me/15988036921" class="whatsapp-button">
+                    <i class="ri-whatsapp-line whatsapp-icon"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--FIM DA PÁGINA INICIAL E CABEÇALHO-->
+
+
+
+    <!-- SEÇÃO SOBRE MIM -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about-photo.JPG" alt="Gustavo" class="profile-img">
+                </div>
+                <div class="about-text">
+                    <h1 class="about-title">Sobre mim...</h1>
+                    <p class="about-description">
+                        Olá, sou o Gustavo! Tenho 19 anos e a fotografia entrou na minha vida de uma maneira bem natural. 
+                        Sempre achei fascinante como um simples momento pode ser transformado em algo eterno através de uma foto. 
+                        Eu não sou a pessoa mais fotogênica, mas é justamente por isso que me dedico a registrar a essência das pessoas e dos momentos, de forma simples e verdadeira.
+                        Viva o momento, eu registro o resto!
+                    </p>
+                    <ul class="about-features">
+                        <li><i class="fa fa-check"></i> Eternizando momentos</li>
+                        <li><i class="fa fa-check"></i> Dedicação aos detalhes</li>
+                        <li><i class="fa fa-check"></i> Capturando sentimentos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIM DA SEÇÃO SOBRE MIM -->
+
+
+    <!--SEÇÃO SERVIÇOS-->
+    <section class="services" id="services">
+        <div class="container-serv">
+            <h1>Meus Serviços</h1>
+            <p>Conheça os serviços que ofereço para capturar momentos especiais.</p>
+            <div class="services-list">
+
+                <div class="service-item sessao-fotografica">
+                    <h4>Ensaios</h4>
+                    <p><strong>Transforme momentos especiais em memórias inesquecíveis.</strong></p>
+                </div>
+
+                <div class="service-item aniversarios">
+                    <h4>Aniversários</h4>
+                    <p><strong>Registre sorrisos e emoções, criando lembranças únicas para todas as idades.</strong></p>
+                </div>
+
+                <div class="service-item fotografias-comerciais">
+                    <h4>Fotografias Comerciais</h4>
+                    <p><strong>Valorize seu produto com imagens criativas que atraem e encantam os clientes.</strong></p>
+                </div>
+
+                <div class="service-item corporativo">
+                    <h4>Corporativo</h4>
+                    <p><strong>Fotos profissionais que refletem seu estilo e imagem de sucesso.</strong></p>
+                </div>
+
+                <div class="service-item casamentos">
+                    <h4>Casamentos</h4>
+                    <p><strong>Capture o amor e felicidade do seu grande dia com fotos cheias de emoção.</strong></p>
+                </div>
+
+                <div class="service-item eucaristia">
+                    <h4>Eucaristia</h4>
+                    <p><strong>Registre esse momento especial com fotos que refletem fé e celebração.</strong></p>
+                </div>
+
+                <div class="service-item crisma">
+                    <h4>Crisma</h4>
+                    <p><strong>Imortalize a cerimônia de crisma com fotos que expressam fé e alegria.</strong></p>
+                </div>
+
+                <div class="service-item batizado">
+                    <h4>Batizado</h4>
+                    <p><strong> Celembrando o início de uma nova jornada, com muitas bençãos e familiares!</strong></p>
+                </div>
+
+                <div class="service-item cha-reve">
+                    <h4>Chá Revelação</h4>
+                    <p><strong>Bebê a caminho! Será rosa ou azul? Vamos descobrir!</strong></p>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <!--FIM DA SEÇÃO SERVIÇOS-->
+
+
+<!-- SEÇÃO MEU PORTFÓLIO -->
+<section class="portfolio bg-dark" id="works">
+    <div class="heading">
+        <h2 class="title">Meu Portfólio</h2>
+    </div>
+
+    <!-- BOTÕES DE FILTRO -->
+    <div class="portfolio-filters">
+        <button data-filter="all" class="active">Todos</button>
+        <button data-filter="casamentos">Casamentos</button>
+        <button data-filter="ensaios">Ensaios</button>
+        <button data-filter="aniversarios">Aniversários</button>
+        <button data-filter="corporativo">Corporativo</button>
+        <button data-filter="sacramentos">Sacramentos</button>
+    </div>
+
+    <!-- GALERIA DE IMAGENS -->
+    <div class="portfolio-gallery">
+
+        <!-- Imagens -->
+        <div class="portfolio-item casamentos">
+            <img src="images/casament.jpg" alt="IMAGEM1-casamento">
+        </div>
+        <div class="portfolio-item ensaios">
+            <img src="images/ensaiorafaduda2.JPG" alt="IMAGEM2-ensaio" class="img-ensaio-ajustada">
+        </div>
+        <div class="portfolio-item aniversarios">
+            <img src="images/aniversary.jpg" alt="IMAGEM3-birthday">
+        </div>
+        <div class="portfolio-item corporativo">
+            <img src="images/corporate-moniq.jpg" alt="IMAGEM4-corporative">
+        </div>
+        <div class="portfolio-item sacramentos">
+            <img src="images/eucaristia-gab.jpg" alt="IMAGEM5-sacramento">
+        </div>
+
+        <!-- Repetir imagens de forma organizada -->
+        <div class="portfolio-item casamentos">
+            <img src="images/casament2.jpg" alt="IMAGEM1-casamento">
+        </div>
+        <div class="portfolio-item ensaios">
+            <img src="images/ensaio-rafaduda.jpg" alt="IMAGEM2-ensaio">
+        </div>
+        <div class="portfolio-item aniversarios">
+            <img src="images/aniversary2.jpg" alt="IMAGEM3-birthday">
+        </div>
+        <div class="portfolio-item corporativo">
+            <img src="images/corporate-moniq2.jpg" alt="IMAGEM4-corporative">
+        </div>
+        <div class="portfolio-item sacramentos">
+            <img src="images/eucarisiaLET.jpg" alt="IMAGEM5-sacramento">
+        </div>
+
+        <div class="portfolio-item casamentos">
+            <img src="images/casament3.jpg" alt="IMAGEM1-casamento">
+        </div>
+        <div class="portfolio-item ensaios">
+            <img src="images/20240714171519_IMG_4327.JPG" alt="IMAGEM3-ensaio">
+        </div>
+        <div class="portfolio-item aniversarios">
+            <img src="images/aniversary3.jpg" alt="IMAGEM3-birthday">
+        </div>
+        <div class="portfolio-item corporativo">
+            <img src="images/corporate-moniq3.jpg" alt="IMAGEM4-corporative">
+        </div>
+        <div class="portfolio-item sacramentos">
+            <img src="images/gab2.jpg" alt="IMAGEM5-sacramento">
+        </div>
+
+        <div class="portfolio-item casamentos">
+            <img src="images/casament4.jpg" alt="IMAGEM1-casamento">
+        </div>
+        <div class="portfolio-item ensaios">
+            <img src="images/20240714175151_IMG_4424.JPG" alt="IMAGEM4-ensaio">
+        </div>
+        <div class="portfolio-item aniversarios">
+            <img src="images/aniversary4.jpg" alt="IMAGEM3-birthday">
+        </div>
+        <div class="portfolio-item corporativo">
+            <img src="images/corporateELI-1.jpg" alt="IMAGEM4-corporative">
+        </div>
+        <div class="portfolio-item sacramentos">
+            <img src="images/crisma-LET.jpg" alt="IMAGEM5-sacramento">
+        </div>
+    </div>
+</section>
+
+<!-- (Lightbox) ZOOM NAS IMAGENS-->
+<div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">×</span>
+    <img id="lightbox-img" src="" alt="Imagem ampliada">
+</div>
+<!-- FIM DO (Lightbox) ZOOM NAS IMAGENS-->
+<!--FIM DA SEÇÃO MEU PORTFÓLIO -->
+
+
+
+    <!-- SEÇÃO CONTATO -->
+    <section class="contact" id="contact">
+        <div class="container-contact">
+            <div class="box-C">
+                <h2>Me contate!</h2>
+                <ul>
+                    <li>
+                        <i class="bi bi-telephone-fill"></i>
+                        <p>1598803-6921</p>
+                    </li>
+                    <li>
+                        <i class="ri-at-line"></i>
+                        <p>gustavinhojesussant@gmail.com</p>
+                    </li>
+                    <li>
+                        <i class="ri-building-2-line"></i>
+                        <p>Sorocaba-SP</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- FORMS -->
+            <div class="form">
+                <div class="box-r">
+                    <div class="form-box">
+                        <form action="contact" method="">
+                            <div class="one-line">
+                                <div class="box-input">
+                                    <i class="fa fa-user form-icon"></i>
+                                    <input type="text" name="name" id="name" placeholder="Insira seu nome">
+                                </div>
+                                <div class="box-input">
+                                    <i class="bi bi-telephone-fill"></i>
+                                    <input type="text" name="phone" id="phone" placeholder="Seu telefone">
+                                </div>
+                            </div>
+                            <div class="box-input">
+                                <i class="fa fa-at form-icon"></i>
+                                <input type="email" name="email" id="email" placeholder="Seu melhor e-mail">
+                            </div>
+                            <div class="box-input">
+                                <textarea name="message" id="message" cols="30" rows="10"
+                                    placeholder="O que deseja?"></textarea>
+                            </div>
+                            <button class="btn" type="button" onclick="sendEmail()">Enviar mensagem</button>
+                        </form>
+                        <!-- FIM DO FORMS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIM DA SEÇÃO CONTATO -->
+
+
+
+    <!--RODAPÉ-->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://wa.me/15988036921" aria-label="WhatsApp">
+                        <i class="bi bi-whatsapp"></i>
+                        <a href="https://www.instagram.com/gusttavo.fotografia/" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="copyright">
+                    &copy; 2024 <strong>Gusttavo Fotografia</strong>. Todos os direitos reservados.
+                    <p>― Desenvolvido por GuDev-07 <a href="https://github.com/GuDev-07" aria-label="GitHub">
+                            <i class="fab fa-github"></i></a> ―</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--FIM DO RODAPÉ-->
+    <script src="script.js"></script> <!-- Link para o seu JavaScript -->
+</body>
+
+</html>
