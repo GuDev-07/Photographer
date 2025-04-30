@@ -230,7 +230,7 @@ h4 {
 
 /*CABEÇALHO ESTILOS*/
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/C-A-PA.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/about-me.jpg);
     min-height: 100vh;
     background-color: #111;
     background-position: top right;
@@ -471,7 +471,7 @@ h4 {
 }
 
 .service-item.sessao-fotografica {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/ensaioRAFADUDASERVICES.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/rafinhaEdu\ -\ foto2.jpg);
     background-size: 260px;
     width:  250px;
     height: 290px;
@@ -480,37 +480,11 @@ h4 {
 }
 
 .service-item.sessao-fotografica:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/ensaioRAFADUDASERVICES.JPG);
-}
-
-.service-item.aniversarios {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/aniversary.jpg);
-    background-size: 260px;
-    width:  250px;
-    height: 290px;
-    background-position: 50%;
-    cursor: pointer;
-}
-
-.service-item.aniversarios:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/aniversary.jpg);
-}
-
-.service-item.fotografias-comerciais {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/comercial.jpg);
-    background-size: 260px;
-    width:  250px;
-    height: 290px;
-    background-position: 50%;
-    cursor: pointer;
-}
-
-.service-item.fotografias-comerciais:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/comercial.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/rafinhaEdu\ -\ foto2.jpg);
 }
 
 .service-item.corporativo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/corporate-moniq.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/corporativoMonique\ -\ foto1.jpg);
     background-size: 260px;
     width:  250px;
     height: 290px;
@@ -519,11 +493,11 @@ h4 {
 }
 
 .service-item.corporativo:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/corporate-moniq.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/corporativoMonique\ -\ foto1.jpg);
 }
 
 .service-item.casamentos {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/casament.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/elisAde\ -\ fotoprincipal.jpg);
     background-size: 260px;
     width:  250px;
     height: 290px;
@@ -532,11 +506,11 @@ h4 {
 }
 
 .service-item.casamentos:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/casament.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/elisAde\ -\ fotoprincipal.jpg);
 }
 
 .service-item.eucaristia {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/eucaristia-gab.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/eucaristiaLE2.jpg);
     background-size: 260px;
     width:  250px;
     height: 290px;
@@ -545,11 +519,11 @@ h4 {
 }
 
 .service-item.eucaristia:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/eucaristia-gab.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/eucaristiaLE.jpg);
 }
 
 .service-item.crisma {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/crisma-LET.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/CRISMALICE.jpg);
     background-size: 260px;
     width:  240px;
     height: 290px;
@@ -558,12 +532,12 @@ h4 {
 }
 
 .service-item.crisma:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/crisma-LET.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/CRISMALICE.jpg);
 }
 
 .service-item.batizado {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/batism.webp);
-    background-size: 260px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/batismo-fred3.jpg);
+    background-size: 280px;
     width:  240px;
     height: 290px;
     background-position: 50%;
@@ -571,11 +545,11 @@ h4 {
 }
 
 .service-item.batizado:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/batism.webp);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/batismo-fred3.jpg);
 }
 
 .service-item.cha-reve {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/cha.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/sofia-lucas3.jpg);
     background-size: 260px;
     width:  240px;
     height: 290px;
@@ -584,7 +558,7 @@ h4 {
 }
 
 .service-item.cha-reve:hover {
-    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/cha.jpg);
+    background-image: linear-gradient(rgba(216, 216, 219, 0.514), rgba(240, 234, 234, 0.281)), url(./images/sofia-lucas3.jpg);
 }
 /*FIM DA SEÇÃO SERVICES*/
 
