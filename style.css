@@ -204,6 +204,24 @@ h4 {
         z-index: 100;
     }
 
+    .navbar .navbar-links a {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-shadow: #000000;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 28px;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+    overflow: initial;
+}
+
+    .navbar .navbar-links a:hover {
+    color: #3d8be4;
+    transform: scale(1.05);
+}
+
     .navbar .navbar-links.active {
         transform: translateX(0); /* Mostra o menu quando 'active' */
     }
@@ -230,7 +248,7 @@ h4 {
 
 /*CABEÇALHO ESTILOS*/
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/about-me.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.979)), url(./images/test-image.jpeg);
     min-height: 100vh;
     background-color: #111;
     background-position: top right;
@@ -265,7 +283,6 @@ h4 {
 /*FIM DE TODA ESTILIZAÇÃO DO CABEÇALHO*/
 
 /*SEÇÃO SOBRE-MIM (AQUI COMEÇAM TODAS AS SECTIONS)*/
-
 .about .container {
     padding: 1rem 6%;
     display: flex;
