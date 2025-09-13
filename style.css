@@ -701,6 +701,37 @@ h4 {
     }
 }
 
+.download-port {
+    display: flex;
+    flex-direction: column; /* empilha o texto e o botão */
+    align-items: center;
+    padding: 20px;
+    gap: 12px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-download {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #177aec;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-download:hover {
+    background-color: #054da0;
+    font-weight: 800;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
 
 /* SEÇÃO CONTATO ENTRE EM CONTATO */
 .contact {
